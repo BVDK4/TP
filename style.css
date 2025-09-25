@@ -1,0 +1,258 @@
+body {
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+line-height: 1.6;
+background: #f4f7fa;
+}
+
+html {
+scroll-behavior: smooth;
+}
+
+/* Header Styles */
+header h1, header p {
+text-shadow: 2px 2px 6px rgba(0,0,0,0.6);
+}
+
+section h2 {
+color: #b80000;
+font-weight: bold;
+}
+
+.navbar-custom {
+background: linear-gradient(135deg, #3f5ad3 0%, #7180e6 100%);
+box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+}
+
+.navbar-brand img {
+width: 50px;
+height: 50px;
+border-radius: 5px;
+margin-right: 15px;
+}
+
+.navbar-brand {
+color: white !important;
+font-size: 1.5rem;
+font-weight: bold;
+}
+
+.navbar-nav .nav-link {
+color: white !important;
+font-weight: 500;
+margin: 0 10px;
+transition: opacity 0.3s ease;
+}
+
+.navbar-nav .nav-link:hover {
+opacity: 0.8;
+}
+
+/* Main Content */
+.hero-section {
+padding: 60px 0;
+}
+
+.hero-title {
+color: #3f5ad3;
+text-align: center;
+margin-bottom: 50px;
+font-size: 2.5rem;
+font-weight: bold;
+}
+
+.combat-title {
+color: #3f5ad3;
+font-size: 2rem;
+margin-bottom: 1.5rem;
+border-bottom: 3px solid #ff6b6b;
+padding-bottom: 0.5rem;
+}
+
+.highlight-box {
+background: linear-gradient(135deg, rgba(102, 126, 234, 0.2), rgba(255, 107, 107, 0.2));
+padding: 1.5rem;
+border-radius: 10px;
+margin: 1.5rem 0;
+}
+
+/* Carousel */
+.carousel-container {
+border-radius: 15px;
+box-shadow: 0 8px 25px rgba(0,0,0,0.15);
+overflow: hidden;
+}
+
+.carousel-item img {
+height: 300px;
+object-fit: cover;
+}
+
+/* Cards */
+.info-card {
+background: white;
+border-radius: 15px;
+padding: 2rem;
+height: 100%;
+box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+transition: transform 0.3s ease;
+border: none;
+}
+
+.info-card:hover {
+transform: translateY(-5px);
+}
+
+.info-card h3 {
+color: #3f5ad3;
+margin-bottom: 1rem;
+}
+
+.btn-voir-plus i {
+    transition: transform 0.3s ease;
+}
+.btn-voir-plus[aria-expanded="true"] i {
+    transform: rotate(180deg);
+
+}
+
+.row.align-items-start { align-items: flex-start; }
+
+.info-card {
+  min-height: 260px;  
+  display: block;
+}
+
+/* Statistiques */
+.stat-card {
+background: white;
+border-radius: 15px;
+padding: 2rem;
+text-align: center;
+box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+transition: transform 0.3s ease;
+height: 100%;
+}
+
+.stat-card:hover {
+transform: translateY(-5px);
+}
+
+.stat-number {
+font-size: 3rem;
+font-weight: bold;
+color: #ff6b6b;
+margin-bottom: 0.5rem;
+}
+
+.stat-label {
+color: #666;
+font-size: 1.1rem;
+}
+
+.danger-card {
+background: linear-gradient(135deg, rgba(209, 226, 250, 0.9) 0%, rgba(175, 219, 237, 1) 100%);
+border-radius: 15px;
+padding: 2rem;
+height: 100%;
+box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+transition: transform 0.3s ease;
+}
+
+.danger-card:hover {
+transform: translateY(-3px);
+}
+
+.danger-card h3 {
+color: #d63384;
+font-size: 1.5rem;
+margin-bottom: 1rem;
+}
+
+.danger-card ul {
+list-style: none;
+padding: 0;
+}
+
+.danger-card li {
+position: relative;
+padding-left: 20px;
+margin-bottom: 0.5rem;
+}
+
+.danger-card li::before {
+position: absolute;
+left: 0;
+}
+
+.resource-card {
+background: white;
+border-radius: 15px;
+padding: 2rem;
+height: 100%;
+box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+transition: transform 0.3s ease;
+}
+
+.resource-card:hover {
+transform: translateY(-3px);
+}
+
+.resource-card h3 {
+color: #3f5ad3;
+margin-bottom: 1rem;
+}
+
+.video-container {
+position: relative;
+padding-bottom: 56.25%;
+height: 0;
+overflow: hidden;
+border-radius: 15px;
+box-shadow: 0 8px 25px rgba(0,0,0,0.15);
+}
+
+.video-container iframe {
+position: absolute;
+top: 0;
+left: 0;
+width: 100%;
+height: 100%;
+}
+
+footer {
+font-size: 0.9rem;
+}
+.footer-custom {
+background: #333;
+color: white;
+padding: 3rem 0 1rem;
+}
+
+.footer-custom h3 {
+color: #3f5ad3;
+margin-bottom: 1rem;
+}
+
+.social-links a {
+color: #3f5ad3;
+text-decoration: none;
+margin: 0 15px;
+font-size: 1.1rem;
+transition: color 0.3s ease;
+}
+
+.social-links a:hover {
+color: white;
+}
+
+.contact-info {
+background: rgba(102, 126, 234, 0.1);
+padding: 1rem;
+border-radius: 10px;
+margin-top: 2rem;
+}
+
+.contact-info h4 {
+color: #3f5ad3;
+margin-bottom: 1rem;
+}
